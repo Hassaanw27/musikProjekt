@@ -58,17 +58,22 @@
 nav{
   position: fixed;
   text-decoration: none;
-  justify-content: center;
-
+  height: 100vh
 }
 
 ul{
   text-decoration: none;
   list-style-type: none;
+  position: absolute;
+  line-height: 10vh;
+  top: 50%;
 }
 
 li{
   text-decoration: none;
   color: white;
-
+}
+a{
+  color: white;
+  text-decoration: none;
 }
